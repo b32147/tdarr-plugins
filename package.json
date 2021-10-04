@@ -1,0 +1,27 @@
+{
+  "name": "b32147-tdarr-plugins",
+  "version": "1.0.0",
+  "description": "A set of plugins for Tdarr designed to manage media files for library",
+  "main": "Tdarr_Plugin_B321_B32147AudioConvert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testAudioConvert": "node -e 'require(\"./Tdarr_Plugin_B321_B32147AudioConvert\").test()'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b32147/tdarr-plugins.git"
+  },
+  "keywords": [
+    "tdarr",
+    "plugins",
+    "ffmpeg",
+    "mkv",
+    "media"
+  ],
+  "author": "B32147",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b32147/tdarr-plugins/issues"
+  },
+  "homepage": "https://github.com/b32147/tdarr-plugins#readme"
+}
